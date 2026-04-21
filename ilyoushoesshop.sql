@@ -42,8 +42,8 @@ CREATE TABLE `danh_gia` (
 --
 
 INSERT INTO `danh_gia` (`id_danh_gia`, `id_user`, `ten_danh_gia`, `danh_gia`, `danh_gia_binh_luan`, `id_giay`, `created_at`, `updated_at`) VALUES
-(1, '9', 'nguyễn văn a', '4.8', 'không ngon đâu ae ạ không nên mua', '5', '2024-11-12 03:35:05', '2024-11-12 03:35:45'),
-(2, '10', 'nguyễn văn b', '4.5', 'ngon', '4', '2024-11-12 03:49:29', '2024-11-12 03:51:41');
+(1, '9', 'nguyễn văn a', '4.8', 'không ngon đâu ae ạ không nên mua', '5', '2026-04-18 03:35:05', '2026-04-18 03:35:45'),
+(2, '10', 'nguyễn văn b', '4.5', 'ngon', '4', '2026-04-18 03:49:29', '2026-04-18 03:51:41');
 
 -- --------------------------------------------------------
 
@@ -69,11 +69,11 @@ CREATE TABLE `don_hang` (
 --
 
 INSERT INTO `don_hang` (`id_don_hang`, `ten_nguoi_nhan`, `sdt`, `dia_chi_nhan`, `ghi_chu`, `tong_tien`, `hinh_thuc_thanh_toan`, `hoa_don`, `created_at`, `updated_at`) VALUES
-(1, 'hà duy tình', '0394562068', 'mỹ đình 2', 'giao nhanh giúp mình nhé', '1,760,400 VNĐ', 'Sau khi nhận hàng', 'a:2:{i:5;a:5:{s:10:\"hinh_anh_1\";s:10:\"giay21.jpg\";s:8:\"ten_giay\";s:17:\"Adidas STAN SMITH\";s:7:\"don_gia\";s:7:\"1290000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}i:2;a:5:{s:10:\"hinh_anh_1\";s:9:\"giay4.jpg\";s:8:\"ten_giay\";s:12:\"Nike Joma IC\";s:7:\"don_gia\";s:6:\"666000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}}', '2024-11-11 10:38:12', '2024-11-11 10:38:12'),
+(1, 'nguyễn văn hoàng', '0394562068', 'mỹ đình 2', 'giao nhanh giúp mình nhé', '1,760,400 VNĐ', 'Sau khi nhận hàng', 'a:2:{i:5;a:5:{s:10:\"hinh_anh_1\";s:10:\"giay21.jpg\";s:8:\"ten_giay\";s:17:\"Adidas STAN SMITH\";s:7:\"don_gia\";s:7:\"1290000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}i:2;a:5:{s:10:\"hinh_anh_1\";s:9:\"giay4.jpg\";s:8:\"ten_giay\";s:12:\"Nike Joma IC\";s:7:\"don_gia\";s:6:\"666000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}}', '2024-11-11 10:38:12', '2024-11-11 10:38:12'),
 (2, 'nguyễn văn a', '0123456789', 'mỹ đình 2', 'dfd', '1,161,000 VNĐ', 'Sau khi nhận hàng', 'a:1:{i:5;a:5:{s:10:\"hinh_anh_1\";s:10:\"giay21.jpg\";s:8:\"ten_giay\";s:17:\"Adidas STAN SMITH\";s:7:\"don_gia\";s:7:\"1290000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}}', '2024-11-12 01:25:06', '2024-11-12 01:25:06'),
 (3, 'hà duy tình', '0394562068', 'dfd', 'fsdfsd', '699,000 VNĐ', 'Sau khi nhận hàng', 'a:1:{i:10;a:5:{s:10:\"hinh_anh_1\";s:10:\"giay17.jpg\";s:8:\"ten_giay\";s:12:\"CNVR-WZ87_V1\";s:7:\"don_gia\";s:6:\"699000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:1:\"0\";}}', '2024-11-12 01:36:06', '2024-11-12 01:36:06'),
 (4, 'nguyễn văn b', '0399699399', 'ssdsdfdf', 'dáddsff df', '1,431,000 VNĐ', 'SCB', 'a:1:{i:4;a:5:{s:10:\"hinh_anh_1\";s:10:\"giay23.jpg\";s:8:\"ten_giay\";s:19:\"Adidas PUREBOOST 21\";s:7:\"don_gia\";s:7:\"1590000\";s:8:\"so_luong\";s:1:\"1\";s:10:\"khuyen_mai\";s:2:\"10\";}}', '2024-11-12 03:48:50', '2024-11-12 03:48:50'),
-(5, 'hà duy tình', '0123456789', 'cccc', '12312', '1,698,300 VNĐ', 'Sau khi nhận hàng', 'a:1:{i:3;a:5:{s:10:\"hinh_anh_1\";s:10:\"images.jpg\";s:8:\"ten_giay\";s:19:\"The Nike Premier II\";s:7:\"don_gia\";s:6:\"999000\";s:8:\"so_luong\";i:2;s:10:\"khuyen_mai\";s:2:\"15\";}}', '2025-04-12 22:34:17', '2025-04-12 22:34:17');
+(5, 'nguyẽn văn hoàng', '0123456789', 'cccc', '12312', '1,698,300 VNĐ', 'Sau khi nhận hàng', 'a:1:{i:3;a:5:{s:10:\"hinh_anh_1\";s:10:\"images.jpg\";s:8:\"ten_giay\";s:19:\"The Nike Premier II\";s:7:\"don_gia\";s:6:\"999000\";s:8:\"so_luong\";i:2;s:10:\"khuyen_mai\";s:2:\"15\";}}', '2025-04-12 22:34:17', '2025-04-12 22:34:17');
 
 -- --------------------------------------------------------
 
